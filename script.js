@@ -3,6 +3,7 @@ let btn = document.getElementById("btn");
 // palandrome function
 function palandrome(){
 let nme = document.getElementById("input-area").value;//taking value of input to check//
+nme.split("");
 let i = 0; //i is for traving string from front
 let j = (nme.length - 1) ; //j is for travinf string from rear
 let palan = 1;
